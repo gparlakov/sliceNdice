@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1920px) {
+  html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em; }
+    html:after {
+      content: "";
+      display: block;
+      height: 0px;
+      clear: both; }
+    html body {
+      margin: 0px;
+      padding: 0px; }
+      html body:after {
+        content: "";
+        display: block;
+        height: 0px;
+        clear: both; }
+      html body #wrapper nav ul li {
+        margin-left: 0%; }
+        html body #wrapper nav ul li a {
+          padding: 3px; } }
+@media only screen and (max-width: 830px) {
+  html body #wrapper {
+    min-width: 90%; }
+    html body #wrapper nav ul li {
+      margin-left: 0%; }
+      html body #wrapper nav ul li a {
+        padding: 1px; } }
+@media only screen and (max-width: 780px) {
+  html {
+    margin: 0px;
+    padding: 0px; }
+    html:after {
+      content: "";
+      display: block;
+      height: 0px;
+      clear: both; }
+    html body {
+      margin: 0px;
+      padding: 0px; }
+      html body:after {
+        content: "";
+        display: block;
+        height: 0px;
+        clear: both; }
+      html body #wrapper {
+        margin: 0px;
+        padding: 0px;
+        min-width: 99%; }
+        html body #wrapper:after {
+          content: "";
+          display: block;
+          height: 0px;
+          clear: both; }
+        html body #wrapper nav ul li a {
+          padding-left: 0.6%;
+          padding-right: 0.6%; } }
+@media only screen and (max-width: 480px) {
+  html {
+    margin: 0px;
+    padding: 0px; }
+    html:after {
+      content: "";
+      display: block;
+      height: 0px;
+      clear: both; }
+    html body {
+      margin: 0px;
+      padding: 0px; }
+      html body:after {
+        content: "";
+        display: block;
+        height: 0px;
+        clear: both; }
+      html body #wrapper {
+        margin: 0px;
+        padding: 0px;
+        min-width: 99%; }
+        html body #wrapper:after {
+          content: "";
+          display: block;
+          height: 0px;
+          clear: both; }
+        html body #wrapper header {
+          border: none;
+          margin: 0px;
+          padding: 0px;
+          padding-bottom: 0.5%; }
+          html body #wrapper header:after {
+            content: "";
+            display: block;
+            height: 0px;
+            clear: both; }
+        html body #wrapper nav ul {
+          min-width: 100%; }
+          html body #wrapper nav ul li {
+            min-width: 100%;
+            text-align: center;
+            position: relative; }
+            html body #wrapper nav ul li a {
+              padding: 1% 5%;
+              font-size: 1.2em; }
+            html body #wrapper nav ul li ul {
+              position: static; }
+        html body #wrapper section {
+          min-width: 100%; }
+        html body #wrapper aside .social, html body #wrapper aside .news {
+          display: none; } }
