@@ -1,109 +1,87 @@
-@media only screen and (max-width: 1920px) {
-  html {
-    margin: 0px;
-    padding: 0px;
-    font-size: 2em; }
-    html:after {
-      content: "";
-      display: block;
-      height: 0px;
-      clear: both; }
-    html body {
-      margin: 0px;
-      padding: 0px; }
-      html body:after {
-        content: "";
-        display: block;
-        height: 0px;
-        clear: both; }
-      html body #wrapper nav ul li {
-        margin-left: 0%; }
-        html body #wrapper nav ul li a {
-          padding: 3px; } }
-@media only screen and (max-width: 830px) {
-  html body #wrapper {
-    min-width: 90%; }
-    html body #wrapper nav ul li {
-      margin-left: 0%; }
-      html body #wrapper nav ul li a {
-        padding: 1px; } }
-@media only screen and (max-width: 780px) {
-  html {
-    margin: 0px;
-    padding: 0px; }
-    html:after {
-      content: "";
-      display: block;
-      height: 0px;
-      clear: both; }
-    html body {
-      margin: 0px;
-      padding: 0px; }
-      html body:after {
-        content: "";
-        display: block;
-        height: 0px;
-        clear: both; }
-      html body #wrapper {
-        margin: 0px;
+ 	
+@media only screen and (max-width: 960px) {
+  		
+    html body  #wrapper {
+        margin:0 auto;
         padding: 0px;
-        min-width: 99%; }
-        html body #wrapper:after {
-          content: "";
-          display: block;
-          height: 0px;
-          clear: both; }
-        html body #wrapper nav ul li a {
-          padding-left: 0.6%;
-          padding-right: 0.6%; } }
+		min-width: 85%;
+    }
+	
+		html body #wrapper nav ul li a {
+			padding: 3px ; 
+		} 
+}
+
+@media only screen and (max-width: 640px) {
+  		
+    html body  #wrapper {
+        margin:0 0;
+        padding: 0px;
+		min-width: 100%;
+    }
+		html body #wrapper header{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+			html body #wrapper header nav ul li {
+				padding:3px 1px;
+				margin-left:5px;
+				
+			}
+			
+				html body #wrapper header nav ul li a{
+					padding:3px 1px;
+					
+				}
+}
+		
 @media only screen and (max-width: 480px) {
-  html {
-    margin: 0px;
-    padding: 0px; }
-    html:after {
-      content: "";
-      display: block;
-      height: 0px;
-      clear: both; }
-    html body {
-      margin: 0px;
-      padding: 0px; }
-      html body:after {
-        content: "";
-        display: block;
-        height: 0px;
-        clear: both; }
-      html body #wrapper {
+
+     html body #wrapper {
         margin: 0px;
         padding: 0px;
-        min-width: 99%; }
-        html body #wrapper:after {
-          content: "";
-          display: block;
-          height: 0px;
-          clear: both; }
+        min-width: 99%; 
+	}
+       
         html body #wrapper header {
-          border: none;
-          margin: 0px;
-          padding: 0px;
-          padding-bottom: 0.5%; }
-          html body #wrapper header:after {
-            content: "";
-            display: block;
-            height: 0px;
-            clear: both; }
-        html body #wrapper nav ul {
-          min-width: 100%; }
-          html body #wrapper nav ul li {
-            min-width: 100%;
+			border: none;
+			margin: 0px;
+			padding: 0px;
+			padding-bottom: 0.5%; 
+		}
+			
+			html body #wrapper header img{
+					display:block;
+					margin:0 auto;
+					
+			}
+			
+			html body #wrapper header:after {
+				content: "";
+				display: block;
+				height: 0px;
+				clear: both; 
+			} 
+			
+		
+        html body #wrapper nav ul li {
+            min-width: 100%; 
             text-align: center;
-            position: relative; }
+            position: relative; 
+		}
+			
             html body #wrapper nav ul li a {
-              padding: 1% 5%;
-              font-size: 1.2em; }
-            html body #wrapper nav ul li ul {
-              position: static; }
+				padding: 1% 5%;
+				font-size: 1.2em; 
+			}
+            
         html body #wrapper section {
-          min-width: 100%; }
+			min-width: 100%; 
+		}
+		
+
+		/* hide news and social sidebars */
         html body #wrapper aside .social, html body #wrapper aside .news {
-          display: none; } }
+			display: none; 
+		} 
+}

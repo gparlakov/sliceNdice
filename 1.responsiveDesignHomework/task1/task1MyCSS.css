@@ -1,12 +1,25 @@
-@media only screen and (max-width: 1920px)
-{
-	html body #wrapper{		
-		max-width:90%;	
-		}	
-	
-	#wrapper  footer{
+#wrapper  footer{
 		 position: relative !important;		 
 	}
+
+@media only screen and (max-width: 1920px)
+{ 
+	html body #wrapper{		
+		max-width:90%;	
+	} 	
+	
+}
+
+@media only screen and (max-width: 640px)
+{
+	html body #wrapper{		
+		min-width:100%;			
+		}	
+				
+			html body #wrapper header nav ul li{
+				margin-left:1%px;
+			}
+	
 }
 
 @media only screen and (max-width: 480px)
@@ -30,36 +43,22 @@
 			
 			html body #wrapper header nav{
 				float : none;	
-			}
+			}		
 			
-			html body #wrapper nav ul{
-				padding:0;
-				margin:0;
-			}			
-		
-				html body #wrapper nav ul li{
-					border-collapse: collapse;
+				html body #wrapper nav ul li{					
 					display:block;
 					min-width:100%;
 					text-align: center;
 					margin-top:1%;
 				}
-	html body #wrapper section{
-		margin:0;
-			padding:0;
-	}
-	
 	
 		html body #wrapper section > header{
-			display:none;
-			margin:0;
-			padding : 0;
+			display:none;			
 		}	
-		
-		
+				
 		html body #wrapper>section>article{
 			min-width:100%;
-			border:0px solid black;
+			border:none;
 			border-radius:0px;
 			border-bottom: 1px solid black; 
 			margin:0;
@@ -67,24 +66,7 @@
 		}
 			html body #wrapper>section>article>header{
 				font-size:1.3em;
-			}
-		
-			html body #wrapper>section>article.article-content{
-				padding:0;
-				margin:0;
-			}
-		
-		#wrapper section:after{
-			display:block;
-			content:"";
-			height:0;
-			clear:both; 		
-		}
-	
-	
-	#wrapper  footer{
-		 position: relative !important;		 
-		 font-size:0.9em;
-	}
-	
+			}		
+			
+				
 }
