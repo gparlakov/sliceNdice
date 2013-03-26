@@ -1,0 +1,69 @@
+html,body,button,span,div,p,a{
+    padding:0px;
+    margin:0px;
+    background-color:white;
+}
+body{
+    height:1024px;
+    background-image:url('http://english.free-pictures-wallpaper-photo.at-web.org/desktop-wallpapers-image-en/pictures-1440-900/image-wallpaper-1440-900-pictures-wallpaper-A-sea-free-Ni716899.jpg');
+}
+.button{
+    display:inline-block;
+    line-height:42px;
+    padding:0px 15px;
+    height:42px;
+    border:0px solid black; 
+    background-color:#e9f9ff; 
+    border-bottom:3px solid #c6dae5;    
+    border-radius:15px;
+    font-size:18px;
+}
+.button:active{
+    border:none;
+    line-height:39px;
+    
+}
+/*for older browser support*/
+button{
+    border:none;   
+}
+.clearfix{
+    display:block; 
+    /*float:left; */
+    background-color:rgba(0,0,0,0);
+}
+    .clearfix:after{
+        display:block;
+        content:"";
+        height:0px;
+        clear:both;
+    }
+
+.middle, .middle a{
+     background-color:rgba(0,0,0,0);
+    float:left;   
+    display:block;
+    line-height:42px;     
+    height:47px;       
+    border:none;    
+    background-image:url('button.png');
+    background-repeatX:repeatX;
+    font-size:18px;    
+}
+
+.left{
+     background-color:rgba(0,0,0,0);
+    float:left; 
+    height:47px;    
+    width:23px;
+    background-image: url('left.png');    
+    
+}
+
+.right{
+     background-color:rgba(0,0,0,0);
+    float:right; 
+    height:47px;
+    width:23px;   
+    background-image: url('right.png');    
+}
