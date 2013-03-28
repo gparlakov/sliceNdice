@@ -1,0 +1,77 @@
+html,body,button,span,div,p,a,img{
+    padding:0px;
+    margin:0px;
+}
+
+.imgHolder{    
+    float:left;    
+    border:1px solid red;
+    position:relative;
+}
+    .imgHolder:after{
+        display:block;
+        content:"";
+        height:0px;
+        clear:both;
+    }
+    .img{    
+        display:block;
+        float:left;        
+        
+        
+    }
+    .img:after{
+        display:block;
+        content:"";
+        height:0px;
+        clear:both;
+    }
+
+    /*.lowerLeft,.lowerMiddle,.lowerRight,.rightMiddle,.rightUpper{
+       position:absolute; 
+    }*/
+    .rightSide{
+        height:100%;
+        width:5px;
+        position:absolute;
+        left:100%;        
+    }
+            .rightUpper{
+                display:block;
+                float:right;
+                width:5px;
+                height:15px;
+                background-image:url(../images/rightUp.png);
+            }
+
+
+    .lowerSide{
+        width:100%;
+        height:5px;
+        position:absolute;
+        top:100%; 
+        z-index:10000;
+    }
+        .lowerMiddle{
+            display:inline-block;
+            max-width:100%;
+            min-width:50%;
+            width:auto;
+            height:5px;
+            background-image:url('../images/lowerMid.png');           
+        }
+        
+        .lowerLeft{
+            display:inline-block;
+            width:10px;
+            height:5px;
+            background-image:url('../images/lowerLeft.png');
+          
+        }
+        
+        .lowerRight{
+            display:inline-block;
+            width:5px;
+            height:5px;
+            background-image:url('../images/lowerRight.png');            
+        }
