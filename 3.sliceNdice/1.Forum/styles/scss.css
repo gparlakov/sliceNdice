@@ -1,0 +1,138 @@
+html,body,div,nav,article,a,p,ul,li,h1,h2,h3{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+ul{
+    list-style:none;
+}
+/*clear and zoom*/
+#logo-head{
+    zoom:1;
+}
+
+#logo-head:after,
+#nav ul:after{
+    content:"";
+    height:0px;
+    display:block;
+    clear:both;    
+}
+
+#mainContent,#sidebarLeft,#sidbarRight{
+    box-sizing:border-box;   
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+/*clear and zoom end*/
+
+#wrapper{
+    font: 18px/26px "Consolas" bold;
+}
+
+/*  logo        */
+    #logo-head{        
+        color:#6a6d87;
+        text-align:right; 
+        vertical-align:middle;
+        background:url('images/header.jpg');  
+        height:50px;        
+    }
+
+        #logo-head h1{
+            display:block;
+            background-color:#59518c;            
+            float:left;
+            width:20%;
+            height:100%;
+            text-align:center;                        
+        } 
+
+        #logo-head h1 a{
+            display:inline;
+            color:#FFF;
+            vertical-align:-10px;
+            font-style:italic;  
+        }
+    
+     #logo-head img{  
+        height:100%;
+    }
+
+/* main content */
+
+    #mainContent{
+        background-color:#e6def5;
+        width:60%;
+        float:left;
+        padding:3px;
+    } 
+
+        #nav{
+            font-size:0.8em;
+        }
+            #nav ul span{
+                float:left;
+            }
+            #nav ul li{
+                float:left;            
+            }            
+                #nav ul li a{            
+                    border-right:1px solid black;
+                    padding: 0 5px;            
+                    color:blue;
+                }
+                
+                    #nav ul li:last-child a{            
+                        border-right:0px solid black;                
+                    }
+
+        #mainContent article{
+            background-color:#fff;
+            color:#4b3e82;
+            font-size:0.9em;
+            padding:5px;
+        }
+
+            #mainContent article img{
+                border:1px solid black;
+                float:left;
+                margin-right:10px;
+            }
+            
+            #mainContent article h2{
+                color: #c41e89;               
+            }   
+
+             #mainContent article .underHeader{
+                    font-size:1.2em;
+            }
+            
+
+/*left sidebar**/
+
+#sidebarLeft{
+    width:20%;
+    float:left;   
+        ul{
+            list-style:disc;
+            
+            li{
+                
+            }
+        }
+        
+    
+}
+/**Sidebar Right**/
+
+#sidebarRight{
+    width:20%;
+    float:right;
+}
