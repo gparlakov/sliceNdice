@@ -174,14 +174,31 @@ body div#wrapper footer h2 {
   text-align: center;
   font-size: 1.4em;
 }
-.no-csscolumns #wrapper #site-header li{
+
+/**HW start **/
+.no-borderradius #wrapper aside{
+    behavior: url(scripts/css3-pie/PIE_uncompressed.htc);
+}
+
+.no-cssgradients body{
+    background-image:url(img/bodyGrad.png);
+    background-position:0px 0px;
+    background-repeat:repeat-x;
+}
+.no-cssgradients #wrapper #site-header{
+    background-color:transparent;
+}
+
+.js #wrapper #site-header li{
 	display:inline;
 }
 
 .js #wrapper section{
-	margin-left:10px;
-	margin-right:10px;
-	width:disinherit;
-	zoom:disinherit;
-	
+    zoom:0;	
+    width:auto;
+}
+
+.no-cssgradients #wrapper aside{
+    filter:none;
+    background:url(img/asideGrad.png) repeat-x 0 0; 
 }
