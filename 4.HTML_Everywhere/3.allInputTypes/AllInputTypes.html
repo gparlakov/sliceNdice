@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Input types</title>
+	<link type="text/css" href="styles/styles.css" rel="stylesheet" />
+	<link type="text/css" href="styles/spectrum.css" rel="stylesheet" />
+    <!--[if lte IE 9]>    
+		<script src="scripts/jquery-1.9.1.js"></script>
+		<script src="scripts/spectrum.js"></script>	
+		<script src="scripts/shims/extras/modernizr-custom.js"></script>		
+		<script src="scripts/polyfiller.js"></script>		
+		<script>
+			$.webshims.polyfill('forms forms-ext');
+		</script>
+    <![endif]-->
+   
+</head>
+<body>
+	<form  method = "GET">
+		<label for="rng">Range: </label>
+		<input name="rng" type="range" />		
+		
+		<br/>
+		<label for="num">Number: </label>
+		<input name="num" type="number" />
+		<br/>
+		<label for = "e_mail">Email: </label>
+		<input name = "e_mail" type="email" />
+		<br/>
+		<label>Date: </label>
+		<input type="date" />
+		<br/>
+		<label>Color Pick: </label>		
+		<input type="color" />
+		<br/>
+		<label>Date and Time: </label>
+		<input type="datetime" />
+		<br/>
+		<label>Month: </label>
+		<input type="month" />
+		<br/>
+		<label>Tel: </label>
+		<input type="tel" />
+		<br/>
+		<label>Time: </label>		
+		<input type="time" />
+		<br/>
+		<label>Url: </label>
+		<input type="url" />
+		<br/>
+		<label>Week: </label>		
+		<input type="week" />
+		<br/>
+		<label>Search: </label>
+		<input type="search" />	
+		<br/>
+		<input type="submit" value = "validate"/>
+	</form>
+		<script src="scripts/jquery-1.9.1.js"></script>
+		<script src="scripts/extras/modernizr-custom.js"></script>
+		<script src="scripts/polyfiller.js"></script>		
+		<script>
+			$.webshims.polyfill();
+		</script>
+</body>
+</html>
