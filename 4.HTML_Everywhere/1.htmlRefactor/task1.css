@@ -202,3 +202,7 @@ body div#wrapper footer h2 {
     filter:none;
     background:url(img/asideGrad.png) repeat-x 0 0; 
 }
+
+a:hover{
+    text-decoration:line-through;
+}
