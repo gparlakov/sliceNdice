@@ -1,0 +1,54 @@
+.spriteShow{
+	width:16px;
+	padding-left:20px;
+	background-image:url('../img/icons.png');	
+	margin:5px;
+}
+
+.spriteShow p{
+	width:200px;
+	margin:5px;
+}	
+
+.holder{
+	width:45%;
+	float:left;
+	margin:5px;
+	border:1px solid green;
+	border-radius:5px;
+}
+
+.sprite-comment{ background-position: 0 0; width: 16px; height: 16px; } 
+.sprite-comment_add{ background-position: -66px 0; width: 16px; height: 16px; } 
+.sprite-comment_delete{ background-position: -132px 0; width: 16px; height: 16px; } 
+.sprite-comment_edit{ background-position: -198px 0; width: 16px; height: 16px; } 
+.sprite-comments{ background-position: -264px 0; width: 16px; height: 16px; } 
+.sprite-comments_add{ background-position: -330px 0; width: 16px; height: 16px; } 
+.sprite-comments_delete{ background-position: -396px 0; width: 16px; height: 16px; } 
+.sprite-folder{ background-position: -462px 0; width: 16px; height: 16px; } 
+.sprite-folder_add{ background-position: -528px 0; width: 16px; height: 16px; } 
+.sprite-folder_delete{ background-position: -594px 0; width: 16px; height: 16px; } 
+.sprite-folder_edit{ background-position: -660px 0; width: 16px; height: 16px; } 
+.sprite-group{ background-position: -726px 0; width: 16px; height: 16px; } 
+.sprite-group_add{ background-position: -792px 0; width: 16px; height: 16px; } 
+.sprite-group_delete{ background-position: -858px 0; width: 16px; height: 16px; } 
+.sprite-group_edit{ background-position: -924px 0; width: 16px; height: 16px; } 
+.sprite-page_white{ background-position: -990px 0; width: 16px; height: 16px; } 
+.sprite-page_white_acrobat{ background-position: -1056px 0; width: 16px; height: 16px; } 
+.sprite-page_white_actionscript{ background-position: -1122px 0; width: 16px; height: 16px; } 
+.sprite-page_white_add{ background-position: -1188px 0; width: 16px; height: 16px; } 
+.sprite-page_white_c{ background-position: -1254px 0; width: 16px; height: 16px; } 
+.sprite-page_white_camera{ background-position: -1320px 0; width: 16px; height: 16px; } 
+.sprite-page_white_cplusplus{ background-position: -1386px 0; width: 16px; height: 16px; } 
+.sprite-page_white_csharp{ background-position: -1452px 0; width: 16px; height: 16px; } 
+.sprite-page_white_cup{ background-position: -1518px 0; width: 16px; height: 16px; } 
+.sprite-page_white_delete{ background-position: -1584px 0; width: 16px; height: 16px; } 
+.sprite-page_white_edit{ background-position: -1650px 0; width: 16px; height: 16px; } 
+.sprite-page_white_excel{ background-position: -1716px 0; width: 16px; height: 16px; } 
+.sprite-page_white_php{ background-position: -1782px 0; width: 16px; height: 16px; } 
+.sprite-page_white_powerpoint{ background-position: -1848px 0; width: 16px; height: 16px; } 
+.sprite-page_white_ruby{ background-position: -1914px 0; width: 16px; height: 16px; } 
+.sprite-user{ background-position: 0 -66px; width: 16px; height: 16px; } 
+.sprite-user_add{ background-position: -66px -66px; width: 16px; height: 16px; } 
+.sprite-user_delete{ background-position: -132px -66px; width: 16px; height: 16px; } 
+.sprite-user_edit{ background-position: -198px -66px; width: 16px; height: 16px; } 
