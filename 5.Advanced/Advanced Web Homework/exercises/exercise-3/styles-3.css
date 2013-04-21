@@ -1,0 +1,15 @@
+body {
+	color: #000000;
+	font-family: Calibri, "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, Lucida, sans-serif;
+	font-size: 14px;
+}
+
+	body p{
+	display: block;
+	margin: 1.5em 0;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	
+	}
